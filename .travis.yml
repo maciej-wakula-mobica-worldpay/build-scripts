@@ -1,2 +1,10 @@
 language: go
+
+env:
+        global:
+                SECRET_VAR1=secretValue
+
 script: build-rpc-agent.sh
+
+go:
+        - master
