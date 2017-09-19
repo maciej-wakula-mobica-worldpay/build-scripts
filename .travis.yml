@@ -5,3 +5,6 @@ env:
                 SECRET_VAR1=secretValue
 
 script: build-rpc-agent.sh
+
+go:
+        - master
