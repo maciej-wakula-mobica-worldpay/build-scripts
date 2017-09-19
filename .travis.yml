@@ -2,4 +2,3 @@ before_install:
         - echo -e "Starting"
 
 script: ./build-rpc-agent.sh
-
